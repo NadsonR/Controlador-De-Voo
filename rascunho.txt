@@ -1,0 +1,17 @@
+/*ItemListener itemListenerTableComboBox = new ItemListener(){
+			public void itemStateChanged(ItemEvent e){
+				if (e.getStateChange() == ItemEvent.SELECTED){
+					String item = e.getItem().toString();
+
+					for (Aviao aviao : tmd.findAll()){
+						//JOptionPane.showInputDialog( aviao.isProblemaGasol(), JOptionPane.PLAIN_MESSAGE );
+						if (aviao.isProblemaGasol() == item){
+							index = TableModelDecolagem.linhasDecolagens.indexOf(aviao);
+							tmd.removeAviaoDecolagem(index);
+						}
+					}		
+					//JOptionPane.showInputDialog( item, JOptionPane.PLAIN_MESSAGE );		
+				}
+			}
+		};*/
+		//cbDecol.addItemListener(itemListenerTableComboBox);
